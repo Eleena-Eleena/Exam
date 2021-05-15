@@ -11,7 +11,7 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             uint number = 10;
-            var expected = 5;
+            var expected = 4;
 
             var a = new A();
             int actual = a.FindSimple(number);
